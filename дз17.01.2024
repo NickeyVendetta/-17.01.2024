@@ -1,0 +1,62 @@
+import random
+#proc16
+##def Sign(X):
+##    if X < 0:
+##        return -1
+##    elif X == 0:
+##        return 0
+##    else:
+##        return 1
+##    
+##A = random.randint(-5,5)
+##B = random.randint(-4,4)
+##
+##r = Sign(A) + Sign(B)
+##print(A)
+##print(B)
+##print(r)
+
+#proc17
+##def RootsCount(A, B, C):
+##    D = B*B - 4*A*C
+##    if D > 0:
+##        return 2 
+##    elif D == 0:
+##        return 1  
+##    else:
+##        return 0
+##A = random.randint(-3,3)
+##B = random.randint(-2,2)
+##C = random.randint(-1,1)
+##
+##G = random.randint(-3,3)
+##H = random.randint(-2,2)
+##J = random.randint(-1,1)
+####
+##K = random.randint(-3,3)
+##L = random.randint(-2,2)
+##M = random.randint(-1,1)
+##
+##e1 = RootsCount(A,B,C)  
+##e2 = RootsCount(G,H,J)   
+##e3 = RootsCount(K,L,M)  
+##
+##print("E 1:", e1, "корня")
+##print("E 2:", e2, "корня")
+##print("E 3:", e3, "корня")
+
+#proc18
+##def S(R):
+##    return 3.14 * R*R
+##
+##r1 = random.randint(1,5)
+##r2 = random.randint(5,7)
+##r3 = random.randint(7,10)
+##
+##a1 = S(r1)
+##a2 = S(r2)
+##a3 = S(r3)
+##
+##print("Площадь круга с радиусом", r1, ":", a1)
+##print("Площадь круга с радиусом", r2, ":", a2)
+##print("Площадь круга с радиусом", r3, ":", a3)
